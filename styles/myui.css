@@ -1,0 +1,56 @@
+.bkimg {
+    background-image: url(../duncan-kidd.jpg);
+    background-size: 100%;
+}
+
+a.changecol {
+    color: #000000 !important;
+}
+
+
+.uk-navbar-nav>li>a{
+    font-size: larger;
+}
+
+.join {
+    padding-top: 60%;
+    padding-bottom: 20%;
+}
+
+.feattop{
+    margin-top: 50px;
+}
+
+.featbot{
+    margin-top: 25px;
+}
+
+.title{
+    min-height: 90px;
+}
+
+.card-img img{
+    min-height: 200px;
+}
+
+@media (max-width:738px){
+
+    .feattop{
+        min-height: 48px;
+    }
+}
+
+@media (max-width: 640px){
+
+    .bkimg{
+        order: -1;
+    }
+
+    .feattop{
+        min-height: 0px;
+    }
+
+    .uk-navbar-nav{
+        margin-left: 20px;
+    }
+}
